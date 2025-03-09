@@ -1,4 +1,4 @@
-#A class that handles an account that allows depositing, withdrawing, and viewing account blance
+#A class that handles a bank account that allows depositing, withdrawing, and viewing account blance
 class Account:
     #initializing the class and its attributes
     def __init__(self, account_number: str, account_balance: float, account_holder: str):
@@ -36,8 +36,8 @@ class Account:
         return self.account_balance
 
 
-
-    # def menu(self):
+# menu method to navigate the account options
+# def menu(self):
     #     while True:
     #         print("\nHello. What would you like to do: ")
     #         print("1. Deposit")
