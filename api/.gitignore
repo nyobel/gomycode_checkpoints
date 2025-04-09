@@ -1,0 +1,5 @@
+# .gitignore
+.env       # Exclude all .env files
+*.env      # Additional pattern for safety
+env/       # Exclude env folders
+secrets/   # Exclude secrets folders
