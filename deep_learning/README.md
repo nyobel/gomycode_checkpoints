@@ -28,3 +28,13 @@ The chatbot also provides a set of questions that guide the user on what kind of
 
 1. **Data Loading:**  
    The chatbot loads response data from a text file named `chatbot_data.txt`. Each line in the file follows the format:
+
+
+2. **Speech Recognition:**  
+When the voice input is selected, the application uses the SpeechRecognition package to capture audio from your microphone and convert it to text using Google's API.
+
+3. **Response Matching:**  
+The chatbot uses NLTK to tokenize the user input and compares it with stored prompts. The best matching response (if any) is then returned.
+
+4. **Streamlit Interface:**  
+With Streamlit, the chatbot displays a simple and interactive web interface where users can choose their input method, see example questions, and receive responses in real-time.
